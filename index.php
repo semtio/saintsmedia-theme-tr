@@ -10,7 +10,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package saintsmedia-tr
+ * @package saintsmedia
  */
 
 get_header();
