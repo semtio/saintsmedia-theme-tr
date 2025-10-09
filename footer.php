@@ -49,7 +49,7 @@
 		</div>
 
 		<style>
-			.footer-contact a :hover{
+			.footer-contact a:hover{
 				color: #dadadaff;
 				transition: .3s;
 			}
