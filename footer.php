@@ -48,13 +48,7 @@
 			?>
 		</div>
 
-		<div class="footer-info">
-			<?php
-			$domain = wp_parse_url(home_url(), PHP_URL_HOST);
-			$year   = wp_date('Y');
-			echo '<span class="domain">' . esc_html($domain) . '</span> &copy; ' . esc_html($year);
-			?>
-		</div>
+
 
 		<div class="footer-contact">
 			<?php
@@ -64,6 +58,7 @@
 				Site, Nostas Technology Ltd.-nin mülkiyyətindədir və onun tərəfindən idarə olunur. Qeydiyyat nömrəsi: 000047191,
 				qeydiyyat ünvanı: Sea Urchin Street, San Pedro Town, Ambergris Caye, Belize.
 			</p>
+
 			<a href="mailto:<?php echo esc_html(get_theme_mod('footer_mail_link')); ?>" class="footer-contact-link"><?php echo esc_html(get_theme_mod('footer_contact_us')); ?>:
 				<?php
 				$domain = wp_parse_url(home_url(), PHP_URL_HOST);
@@ -71,6 +66,16 @@
 				echo esc_html($email ? $email : 'info@' . $domain);
 				?>
 			</a>
+
+			<p>Tüm hakları saklıdır. </p>
+		</div>
+
+		<div class="footer-info">
+			<?php
+			$domain = wp_parse_url(home_url(), PHP_URL_HOST);
+			$year   = wp_date('Y');
+			echo '<span class="domain">' . esc_html($domain) . '</span> &copy; ' . esc_html($year);
+			?>
 		</div>
 
 		<!-- DMCA -->
