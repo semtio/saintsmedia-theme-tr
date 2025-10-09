@@ -59,7 +59,7 @@
 				qeydiyyat ünvanı: Sea Urchin Street, San Pedro Town, Ambergris Caye, Belize.
 			</p>
 
-			<a href="mailto:<?php echo esc_html(get_theme_mod('footer_mail_link')); ?>" class="footer-contact-link"><?php echo esc_html(get_theme_mod('footer_contact_us')); ?>:
+			<a style="color:#646468;" href="mailto:<?php echo esc_html(get_theme_mod('footer_mail_link')); ?>" class="footer-contact-link"><?php echo esc_html(get_theme_mod('footer_contact_us')); ?>:
 				<?php
 				$domain = wp_parse_url(home_url(), PHP_URL_HOST);
 				$email  = get_theme_mod('footer_mail_link');
