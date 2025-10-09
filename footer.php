@@ -48,7 +48,12 @@
 			?>
 		</div>
 
-
+		<style>
+			.footer-contact a :hover{
+				color: #dadadaff;
+				transition: .3s;
+			}
+		</style>
 
 		<div style="color:#646468; display: flex; flex-direction: column; align-items: center;" class="footer-contact">
 			<?php
