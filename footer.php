@@ -50,11 +50,11 @@
 
 
 
-		<div class="footer-contact">
+		<div style="display: flex; flex-direction: column; align-items: center;" class="footer-contact">
 			<?php
 			$email = get_option('admin_email');
 			?>
-			<p>
+			<p style="width: 50%;">
 				Site, Nostas Technology Ltd.-nin mülkiyyətindədir və onun tərəfindən idarə olunur. Qeydiyyat nömrəsi: 000047191,
 				qeydiyyat ünvanı: Sea Urchin Street, San Pedro Town, Ambergris Caye, Belize.
 			</p>
