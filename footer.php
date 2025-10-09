@@ -48,19 +48,14 @@
 			?>
 		</div>
 
-		<style>
-			.footer-contact a:hover{
-				color: #dadadaff;
-				transition: .3s;
-			}
-		</style>
+
 
 		<div style="color:#646468; display: flex; flex-direction: column; align-items: center;" class="footer-contact">
 			<?php
 			$email = get_option('admin_email');
 			?>
 			<p style="width: 68%;">
-				Site, Nostas Technology Ltd.-nin mülkiyyətindədir və onun tərəfindən idarə olunur. Qeydiyyat nömrəsi: 000047191,
+				Site, Nostas Technology Ltd.-nin mülkiyyətindədir və onun tərəfindən idarə olunur. Qeydiyyat nömrəsi: <span style="color: inherit; text-decoration: none;">000047191</span>,
 				qeydiyyat ünvanı: Sea Urchin Street, San Pedro Town, Ambergris Caye, Belize.
 			</p>
 
