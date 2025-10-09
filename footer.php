@@ -50,7 +50,7 @@
 
 
 
-		<div style="display: flex; flex-direction: column; align-items: center;" class="footer-contact">
+		<div style="color:#646468; display: flex; flex-direction: column; align-items: center;" class="footer-contact">
 			<?php
 			$email = get_option('admin_email');
 			?>
@@ -67,7 +67,7 @@
 				?>
 			</a>
 
-			<p>Tüm hakları saklıdır. </p>
+			<p style="color:#646468;">Tüm hakları saklıdır. </p>
 		</div>
 
 		<div class="footer-info">
