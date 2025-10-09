@@ -1,0 +1,11 @@
+/* Стили редактора Gutenberg для совпадения с фронтом */
+body {
+    /* font-family: Inter, sans-serif; */
+    /* background: #000000; */
+    /* max-width: 1400px; */
+    /* margin: 0 auto; */
+}
+
+.wp-block {
+    /* max-width: 1400px; */
+}

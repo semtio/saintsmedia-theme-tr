@@ -1,0 +1,93 @@
+body {
+    margin-bottom: 0 !important;
+}
+
+.sm-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sm-page .saintsmedia-theme-footer {
+    color: var(--sm-menu-link);
+    padding: 24px;
+    margin-top: auto;
+}
+
+.saintsmedia-theme-footer {
+    padding-bottom: 4rem !important;
+    background: var(--sm-menu-bg);
+}
+
+.sm-page .saintsmedia-theme-footer .footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+.sm-page .saintsmedia-theme-footer .footer-logo img {
+    height: 40px;
+}
+
+.sm-page .saintsmedia-theme-footer .footer-info {
+    font-size: 14px;
+}
+
+.sm-page .saintsmedia-theme-footer .footer-contact-link {
+    color: var(--sm-footer-link, #B8BDC5);
+    text-decoration: none;
+}
+
+.sm-page .saintsmedia-theme-footer .footer-contact-link:hover {
+    color: var(--sm-footer-link-hover, #FFFFFF);
+}
+
+.sm-page .saintsmedia-theme-footer a:focus {
+    outline: 2px solid var(--sm-focus-outline, #6CA2FF);
+    outline-offset: 2px;
+}
+
+.saintsmedia-theme-footer .saintsmedia-theme-nav {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 3.5rem 0;
+    padding: 0 20%;
+}
+
+/* already vertical on all sizes */
+
+
+/* Метод оплаты и 18+ */
+.footer-logos-wrapper {
+    margin-top: 40px;
+    display: grid;
+    gap: 32px;
+}
+
+.saintsmedia-theme-logos-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 12px 0;
+}
+
+.saintsmedia-theme-logos-block img {
+    display: block;
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+    max-width: 120px;
+}
+
+@media (min-width: 768px) {
+    .saintsmedia-theme-logos-block img {
+        height: 1.8rem;
+    }
+}
+/* Метод оплаты и 18+ END */

@@ -1,0 +1,8 @@
+.breadcrumbs__list {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.breadcrumbs__list li {
+    margin-right: 2rem;
+}
