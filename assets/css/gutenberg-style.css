@@ -1,0 +1,36 @@
+/* Own classes for gutenberg */
+
+.parent-gutenberg-group p {
+    text-align: justify !important;
+}
+
+.parent-gutenberg-group figure,
+.parent-gutenberg-group figure img {
+    /* width: 100% !important; */
+}
+
+.parent-gutenberg-group .wp-block-image.alignwide img {
+    border-radius: calc(var(--sm-gut-bord-radius, 10) * 1px) !important;
+}
+
+/* Устанавливаем размеры кнопок для моб.вер. */
+@media (max-width: 561px) {
+    .gutenberg-button-mobile {
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .parent-gutenberg-group {
+        width: 80% !important;
+        border: solid rgba(255, 0, 0, 0);
+        margin: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .parent-gutenberg-group {
+        padding: 0 1.3rem !important;
+
+    }
+}

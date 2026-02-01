@@ -1,0 +1,26 @@
+.breadcrumbs__list {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.breadcrumbs__list li {
+    margin-right: 2rem;
+}
+
+.breadcrumbs li,
+.breadcrumbs span {
+    color: var(--sm-breadcrumbs-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs span:hover {
+    cursor: pointer;
+    filter: contrast(1.5);
+}

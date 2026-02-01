@@ -1,0 +1,10 @@
+.saintsmedia-theme-nav,
+.saintsmedia-theme-cta a button,
+.gutenberg-hero-header,
+footer,
+.parent-gutenberg-group,
+.saintsmedia-author-block,
+.saintsmedia-casino-card.saintsmedia-casino-card--primary,
+.sm-gutenberg-hero {
+    font-family: var(--sm-font-family);
+}

@@ -1,0 +1,53 @@
+.customize-control-saintsmedia-languages .sml-languages-control {
+	margin-top: 6px;
+}
+
+.customize-control-saintsmedia-languages .sml-languages-list {
+	display: block;
+}
+
+.customize-control-saintsmedia-languages .sml-language-item {
+	padding: 4px 0;
+	position: relative;
+}
+
+.customize-control-saintsmedia-languages .sml-language-item + .sml-language-item {
+	border-top: 1px dashed #d9d9d9;
+	margin-top: 6px;
+	padding-top: 6px;
+}
+
+.customize-control-saintsmedia-languages .sml-field {
+	margin: 2px 0;
+}
+
+.customize-control-saintsmedia-languages .sml-field label {
+	display: block;
+	font-size: 12px;
+	color: #555;
+	margin-bottom: 2px;
+}
+
+.customize-control-saintsmedia-languages .sml-field input {
+	width: 100%;
+	padding: 4px 6px;
+	font-size: 13px;
+}
+
+.customize-control-saintsmedia-languages .sml-remove {
+	position: absolute;
+	top: 2px;
+	right: 0;
+	text-decoration: none;
+	color: #a00;
+	font-size: 16px;
+}
+
+.customize-control-saintsmedia-languages .sml-remove:hover {
+	color: #dc3232;
+}
+
+.customize-control-saintsmedia-languages .sml-add {
+	margin-top: 8px;
+	width: 100%;
+}
