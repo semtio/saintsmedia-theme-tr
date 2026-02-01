@@ -67,7 +67,7 @@ add_action( 'customize_register', function( $wp_customize ) {
 	}
 	$wp_customize->add_section( 'saintsmedia_multilingual', array(
 		'title'       => __( 'Языки меню + UX мобильного', 'saintsmedia' ),
-		'description' => __( 'Настройки языков и отображения мобильного меню', 'saintsmedia' ),
+		'description' => __( 'Настройки языков и отображения меню', 'saintsmedia' ),
 		'priority'    => 35,
 	) );
 
