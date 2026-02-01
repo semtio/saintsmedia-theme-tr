@@ -89,6 +89,7 @@ body {
     display: flex;
     flex: 1;
     margin-left: 15px;
+    justify-content: flex-end;
 }
 
 .saintsmedia-theme-menu {
