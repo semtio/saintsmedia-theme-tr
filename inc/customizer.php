@@ -278,6 +278,16 @@ function saintsmedia_get_customizer_fields(): array
 			'sanitize'  => 'sanitize_text_field',
 			'transport' => 'refresh',
 		],
+		[
+			'id'        => 'breadcrumbs_color',
+			'label'     => __('Цвет хлебных крошек', 'saintsmedia'),
+			'default'   => '#FFFFFF',
+			'section'   => 'colors',
+			'type'      => 'color',
+			'css_var'   => '--sm-breadcrumbs-color',
+			'sanitize'  => 'sanitize_hex_color',
+			'transport' => 'refresh',
+		],
 	];
 	return apply_filters('saintsmedia_customizer_fields', $fields);
 }
